@@ -82,7 +82,7 @@ gulp.task('clean', function() {
 })
 
 gulp.task('clean:dist', function() {
-  return del.sync(['**/*', '!images', '!images/**/*','!index.html',  '!indexb.html', '!.git', '!.git/**/*', '!app', '!app/**/*', '!node_modules', '!node_modules/**/*', '!.gitignore', '!gulpfile.js', '!package.json', '!README.md', '!css', '!css/**/*', '!js', '!js/**/*']);
+  return del.sync(['**/*', '!images', '!images/**/*', '!indexb.html', '!.git', '!.git/**/*', '!app', '!app/**/*', '!node_modules', '!node_modules/**/*', '!.gitignore', '!gulpfile.js', '!package.json', '!README.md', '!css', '!css/**/*', '!js', '!js/**/*']);
 });
 
 // Build Sequences
