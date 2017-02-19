@@ -2,22 +2,116 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title></title>
-  <!--build:css css/styles.min.css-->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/print.css">
-  <!--endbuild-->
+	<meta charset="UTF-8">
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<!--build:css css/styles.min.css-->
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/print.css">
+	<!--endbuild-->
 </head>
 
 <body>
-  This is a gulp starter! hoh ho
-  
-  <!--build:js js/main.min.js -->
-  <script src="js/lib/a-library.js"></script>
-  <script src="js/lib/another-library.js"></script>
-  <script src="js/main.js"></script>
-  <!-- endbuild -->
+<main class="page-wrapper">
+	<div class="page-container">
+		<section class="page-content">
+			p*10>{content}
+		</section>
+	</div>
+	<aside class="page-sidebar sidebar">
+		<div class="sidebar__head">
+			<button class="menu-btn-switcher"><span>toggle menu</span></button>
+			<a href="" class="brand">Omnigon</a>
+		</div>
+		<button class="btn sidebar__btn">New vote</button>
+		<!-- block-1 -->
+		<div class="sidebar__block block">
+			<div class="block__title">Draft</div>
+			<ul class="block__list s-list">
+				<li class="s-list__item">
+					<a href="" class="s-list__link s-list__link--new">
+						<span class="s-list__img-holder"></span>
+						<span class="s-list__text">New vote</span>
+					</a>
+				</li>
+				<li class="s-list__item">
+					<a href="" class="s-list__link">
+						<span class="s-list__img-holder">
+							<img src="images/image_4@2x.png" alt="descr" class="s-list__img">
+						</span>
+						<span class="s-list__text">Serie A Footballer of the Year</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- block-2 -->
+		<div class="sidebar__block block">
+			<div class="block__title">Active</div>
+			<ul class="block__list s-list">
+				<li class="s-list__item">
+					<a href="" class="s-list__link">
+						<span class="s-list__img-holder">
+							<img src="images/image_7@2x.png" alt="descr" class="s-list__img">
+						</span>
+						<span class="s-list__text">Unleash a Jaguar</span>
+					</a>
+				</li>
+				<li class="s-list__item">
+					<a href="" class="s-list__link">
+						<span class="s-list__img-holder">
+							<img src="images/image_5@2x.png" alt="descr" class="s-list__img">
+						</span>
+						<span class="s-list__text">Choose best Wimbledon player and win tickets to the finals</span>
+					</a>
+				</li>
+				<li class="s-list__item">
+					<a href="" class="s-list__link">
+						<span class="s-list__img-holder">
+							<img src="images/image_6@2x.png" alt="descr" class="s-list__img">
+						</span>
+						<span class="s-list__text">2015 Music Moments</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- block-3 -->
+		<div class="sidebar__block block">
+			<div class="block__title">Closed</div>
+			<ul class="block__list s-list">
+				<li class="s-list__item">
+					<a href="" class="s-list__link">
+						<span class="s-list__img-holder">
+							<img src="images/image_2@2x.png" alt="descr" class="s-list__img">
+						</span>
+						<span class="s-list__text">All time greats</span>
+					</a>
+				</li>
+				<li class="s-list__item">
+					<a href="" class="s-list__link">
+						<span class="s-list__img-holder">
+							<img src="images/image_5@2x.png" alt="descr" class="s-list__img">
+						</span>
+						<span class="s-list__text">Insane Dunks</span>
+					</a>
+				</li>
+				<li class="s-list__item">
+					<a href="" class="s-list__link">
+						<span class="s-list__img-holder">
+							<img src="images/image_3@2x.png" alt="descr" class="s-list__img">
+						</span>
+						<span class="s-list__text">2014 Music Moments</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</aside>
+</main>
+
+<!--build:js js/main.min.js -->
+<script src="js/lib/a-library.js"></script>
+<script src="js/lib/another-library.js"></script>
+<script src="js/main.js"></script>
+<!-- endbuild -->
 </body>
 
 </html>
