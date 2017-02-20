@@ -233,3 +233,39 @@ a {
 
 .s-list__link--new .s-list__img-holder {
   background: rgba(255, 255, 255, 0.6); }
+
+.tab-list {
+  border: 1px solid #aaa;
+  overflow: hidden;
+  padding: 20px;
+  margin: 0 0 10px;
+  height: 1%; }
+  .tab-list p {
+    margin: 0; }
+  .tab-list .tab {
+    background: #fff; }
+
+ul.tabset {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  text-align: center; }
+  ul.tabset li {
+    float: left;
+    width: 20%; }
+  ul.tabset a {
+    color: #303030;
+    display: block;
+    padding: 12px;
+    background: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #fff; }
+  ul.tabset li.active a {
+    text-decoration: none; }
+  ul.tabset a.active {
+    border-bottom-color: #303030;
+    text-decoration: none;
+    font-weight: bold; }
+  ul.tabset a:hover {
+    text-decoration: none;
+    font-weight: bold; }
