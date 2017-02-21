@@ -7,7 +7,7 @@ html{
 }
 body{
 	font: 14px/1.7 Roboto, Arial, Helvetica, sans-serif;
-	min-width: 1156px;
+	//min-width: 1156px;
 	display: flex;
 	height: 100%;
 	flex-direction: column;
@@ -66,14 +66,28 @@ a{
 	border-radius: 8px;
 	background-color: rgba(255, 255, 255, 0.9);
 	box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.05);
+	@media screen and (max-width: 1396px){
+		width: 888px;
+	}
+	@media screen and (max-width: 1156px){
+		width: 772px;
+	}
 }
 .page-sidebar{
-	width: 508px;
 	background: #303030;
 	padding: 19px 16px;
 	color: #fff;
 	order: -1;
 	flex: 0 0 508px;
+	width: 508px;
+	@media screen and (max-width: 1396px){
+		flex: 0 0 444px;
+		width: 444px;
+	}
+	@media screen and (max-width: 1156px){
+		flex: 0 0 320px;
+		width: 320px;
+	}
 }
 // menu-btn-switcher
 .menu-btn-switcher {
@@ -308,6 +322,9 @@ ul.tabset {
 		vertical-align: top;
 		padding: 0 0 12px 16px;
 		width: 25%;
+		@media screen and (max-width: 1156px){
+			width: 33%;
+		}
 	}
 	&__link{
 		font-size: 14px;
@@ -345,6 +362,14 @@ ul.tabset {
 			&::after{
 				background: rgba(0, 0, 0, 0.1);
 			}
+		}
+		@media screen and (min-width: 1157px) and (max-width: 1396px){
+			width: 148px;
+			height: 148px;
+		}
+		@media screen and (max-width: 1156px){
+			width: 164px;
+			height: 164px;
 		}
 	}
 	&__photo{
